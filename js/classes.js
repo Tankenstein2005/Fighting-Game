@@ -125,8 +125,8 @@ class Fighter extends Sprite {
   }
 
   switchSprite(sprite) {
-    if(sprite === "jump"){
-        console.log('FRAME: ', this.framesCurrent);
+    if (sprite === "jump") {
+      console.log("FRAME: ", this.framesCurrent);
     }
     if (
       this.image === this.sprites.attack1.image &&
